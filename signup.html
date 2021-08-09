@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <!-- signup -->
+        <div class="gen-container">
+            <div class="container signUp">
+                <form action="" class="register-form">
+                    <div class="f_name-l_name">
+                        <div class="form-control">
+                            <label for="firstname" class="firstname-lbl lbl">Firstname</label>
+                            <input type="text" name="firstname" class="firstname-input input-section" id="firstname">
+                        </div>
+                        <div class="form-control">
+                            <label for="lastname" class="lastname-lbl lbl">Lastname</label>
+                            <input type="text" name="lastname" class="lastname-input input-section" id="lastname">
+                        </div>
+                    </div>
+                    <div class="out-s_up form-control">
+                        <label for="email" class="email-lbl lbl">Email</label>
+                        <input type="text" name="email" class="email-input-s input-section" id="email">
+                    </div>
+                    <div class="password-field">
+                        <div class="out-s_up form-control">
+                            <label for="password" class="password-lbl password-lbl-s lbl">Password</label>
+                            <input type="password" name="password" class="password-input-s input-section" id="password">
+                            <div class="eyes">
+                                <i class="bx bx-hide"></i>
+                                <i class="bx bx-show"></i>
+                            </div>
+                        </div>
+                        <div class="cond-container">
+                            <div class="left conditions">
+                                <span class="condition eight_chars"><b class="bullet">•</b>
+                                    <p>8 or more characters</p></span>
+                                <span class="condition capital_chars"><b class="bullet">•</b>
+                                    <p>One capital letter</p></span>
+                                <span class="condition lower_chars"><b class="bullet">•</b>
+                                    <p>One lower letter</p></span>
+                            </div>
+                            <div class="right conditions">
+                                <span class="condition number_chars"><b class="bullet">•</b>
+                                    <p>One number letter</p></span>
+                                <span class="condition special_chars"><b class="bullet">•</b>
+                                    <p>One special character</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="out-s_up form-control">
+                        <button type="submit" class="submit-btn submit-btn-s">Register</button>
+                    </div>
+                </form>
+                <h2 class="link-to">Already have an account? <a href="login.html">SignIn</a></h2>
+            </div>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
